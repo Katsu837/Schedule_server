@@ -1,0 +1,15 @@
+.authorization_page
+{
+    display: grid;
+    grid-template-rows: repeat(3, calc((9/16) * 88vw));
+    grid-template-columns: 96vw;
+    font-size: calc((9/16) * 1.5vw);
+}
+
+.outlet
+{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    justify-self: center;
+    align-self: center;
+}

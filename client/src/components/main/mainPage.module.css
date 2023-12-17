@@ -1,0 +1,81 @@
+.mainPage {
+    display: grid;
+    grid-gap: 1vw;
+}
+
+.def {
+    grid-template-rows: calc(9/16 * 4vw) calc(9/16 * 5vw) calc(9/16 * 9vw) calc(9/16 * 9vw) calc(9/16 * 9vw) calc(9/16 * 42vw);
+    grid-template-columns: 15vw 10vw 65vw 3vw;
+}
+
+.div {
+    background-color: gray;
+    border-radius: 1vw;
+}
+
+.notificationsSmall {
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+.notificationsBig {
+    grid-row: 1/4;
+    grid-column: 1/2;
+}
+
+.navCalendarSmall {
+    grid-row: 3/5;
+    grid-column: 1/2;
+}
+
+.navCalendarBig {
+    grid-row: 4/6;
+    grid-column: 1/2;
+}
+
+.chatSmall {
+    grid-row: 5/7;
+    grid-column: 1/2;
+
+}
+
+.chatBig {
+    grid-row: 6/7;
+    grid-column: 1/2;
+}
+
+.search {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    background-color: gray;
+    border-radius: 1vw;
+}
+
+.settings {
+    background-color: gray;
+    width: calc(9/32 * 9vw);
+    border-radius: 1vw;
+}
+
+.settingsOpen {
+    width: 96vw;
+    height: calc(9/16 * 88vw);
+    background: rgba(150, 150, 150, 0.4);
+    -webkit-backdrop-filter: blur(0.5vw);
+    grid-row: 1/7;
+    grid-column: 1/5;
+    z-index: 1;
+}
+
+.settingsClose {
+    background-color: gray;
+    justify-self: center;
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+
+.calendar {
+    grid-row: 2/7;
+    grid-column: 2/5;
+    background-color: gray;
+    border-radius: 1vw;
+}

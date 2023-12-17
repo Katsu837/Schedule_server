@@ -1,0 +1,63 @@
+.navCalendar{
+    padding: 0.1vw 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1.4vw 1.4vw 8vw;
+    justify-self: center;
+    align-self: center;
+    grid-gap: 0.1vw;
+}
+
+.firstLine{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 3vw 9vw 3vw;
+}
+
+.button {
+    width: 1vw;
+    height: 1vw;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0.2vw;
+    justify-self: center;
+}
+
+.arrow {
+    width: 1vw;
+    height: 1vw;
+}
+
+a {
+    color: black;
+    font-size: 1vw;
+}
+
+.daysOfTheWeek {
+    padding: 0 0.1vw;
+    display: grid;
+    grid-template-columns: repeat(7, calc(14.8vw / 7));
+    grid-template-rows: 100%;
+}
+
+.gridOfMonth {
+    display: grid;
+    grid-template-columns: repeat(7, calc(14.8vw / 7));
+    grid-template-rows: repeat(6, calc(8vw / 6));
+}
+
+.days {
+    font-size: 0.9vw;
+    align-self: center;
+}
+
+.alterMonth {
+    color: darkgray;
+}
+
+.today {
+    background-color: darkgray;
+    border-radius: 1vw;
+    margin: 0 0.2vw;
+}
